@@ -1,7 +1,7 @@
 import random
 import discord
 
-TOKEN = 'OTM0NTMzMDgyODMxMjYxNzE2.YexdwQ.97tDhzHnk3uQj3uPis99dzAczUI'
+TOKEN = 'your token'
 
 client = discord.Client()
 
@@ -45,7 +45,7 @@ async def on_message(message):
             return
 
         elif user_message.startswith('!cf'):
-            a = ['da', 'net', 'mozhet bit']
+            a = ['yea', 'nay', 'maybe']
             await message.channel.send(f'{random.choice(a)}')
             return
 
